@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.background_img_1 {
+  background: url(../img/headera.jpg);
+  height: 1050px;	  
+  background-size: cover;
+}
+.container-fluid
+{
+	padding-left:0 !important;
+	padding-right:0 !important;	
+}
+.navbar-inverse{
+	background-color:rgba(218,148,150,0.5);
+	border:none;
+	border-radius:0;
+}
+.nav_head {
+	background-color:rgba(218,148,150,0.5);
+	height: 80px;	
+}
+/*#nav_text_color_1 > li > a{
+	color: #000;
+}*/
+.nav_body_1 {
+  float: left;	
+}
