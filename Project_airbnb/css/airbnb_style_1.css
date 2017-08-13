@@ -1,6 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+p, h1, h2, h3, h4, h5, h6, a
+{
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;	
+	margin-bottom:0 !important;
+}
+
+
+
+
 .background_img_1 {
   background: url(../img/headera.jpg);
   height: 1050px;	  
@@ -16,13 +27,20 @@
 	border:none;
 	border-radius:0;
 }
-.nav_head {
+.nav_header {
 	background-color:rgba(218,148,150,0.5);
-	height: 80px;	
+	height: 80px;
 }
-/*#nav_text_color_1 > li > a{
+.nav_header_menu {
 	color: #000;
-}*/
-.nav_body_1 {
-  float: left;	
 }
+
+#nav_header_menu > ul > li > a{
+	color: #000;
+	line-height:80px;
+}
+
+#nav_header_menu > ul > li > a > span:hover {
+	border-bottom: solid 3px #bf2d38;
+}
+
