@@ -34,13 +34,24 @@ p, h1, h2, h3, h4, h5, h6, a
 .nav_header_menu {
 	color: #000;
 }
-
 #nav_header_menu > ul > li > a{
 	color: #000;
 	line-height:80px;
 }
-
 #nav_header_menu > ul > li > a > span:hover {
 	border-bottom: solid 3px #bf2d38;
 }
 
+#search_bar {
+	margin-top: 20px;
+}
+#search_bar_table {
+	border: solid 1px #7f7f7f;
+}
+.search_bar > div > div > label {
+	
+}
+.search_bar_input {
+	border: none;
+	text-align: center;
+}
